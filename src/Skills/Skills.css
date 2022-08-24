@@ -1,0 +1,148 @@
+#skills {
+    width: 100%;
+    height: 40rem;
+    background-color: var(--black);
+    padding: 0rem 0rem;
+    display: flex;align-items: center;justify-content: center;flex-direction: column;
+
+}
+
+.head-sec {
+
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
+    color: var(--orange);
+}
+
+.img-head {
+
+    width: 35rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+.container-section {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    width: 25rem;
+    height: 13rem;
+    padding: 2rem;
+    background-color: var(--jetcolor);
+    color: var(--white);
+    border-radius: 2%;
+    line-height: 1.5rem;
+    margin: 0rem 0.2rem;
+}
+
+.image-card,
+.head-section,
+.description {
+    width: 100%;
+}
+
+.Tech_Image {
+    width: 5rem;
+    height: auto;
+}
+
+.image-card,
+.head-section,
+.description-skills {
+    text-align: center;
+}
+
+.head-section {
+    font-size: 1rem;
+    font-family: 'Russo One', sans-serif;
+    color: var(--white);
+}
+
+.Small-font-set {
+    font-size: 0.7rem;
+    font-weight: 400;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.Card_Image {
+    width: 4rem;
+    height: auto;
+}
+
+.description-skills p {
+    font-size: 0.8rem;
+    font-family: 'Josefin Slab', serif;
+    color: var(--white);
+
+}
+
+.Edit-Color {
+    color: var(--orange);
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 568px) {
+    #skills {
+        height: 115rem;
+    
+    }
+}
+@media screen and (min-device-width: 569px) and (max-device-width: 767px) {
+    #skills {
+        height: 58rem;
+    }
+}
+  
+
+@media screen and (min-device-width: 768px) and (max-device-width: 975px) {
+    #skills {
+        height: 58rem;
+    }
+}
+
+@media screen and (min-device-width: 976px) and (max-device-width: 1023px) {
+    #skills {
+        height: 38rem;
+    }
+}
+
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px) {
+    #skills {
+        height: 60rem;
+        padding: 0rem 3rem;
+    }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+    #skills {
+        height: 60rem;
+        padding: 0rem 3rem;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 422px) {
+
+    #skills {
+        height: 120rem;
+    }
+    
+
+}
+
+@media screen and (min-device-width: 422px) and (max-device-width: 779px) {
+
+    #skills {
+        height: 60rem;
+    }
+    
+
+}

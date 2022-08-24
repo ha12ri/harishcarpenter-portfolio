@@ -1,0 +1,151 @@
+#projects {
+    width: 100%;
+    height: 50rem;
+    background-color: var(--black);
+    padding: 3rem 0rem;
+}
+
+.img-pro-head {
+    width: 20rem;
+    height: 6rem;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 1rem 0rem;
+
+}
+
+.Pro_Image {
+    width: 6rem;
+    height: auto;
+}
+
+.pro-sec {
+    color: var(--white);
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
+    color: var(--orange);
+}
+
+.container-projects {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.card-project {
+    width: 20rem;
+    height: 25rem;
+    background-color: var(--white);
+    padding: 1rem;
+    line-height: 1rem;
+    border-radius: 1%;
+    margin: 0rem 2rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 0.6rem 0.6rem, rgba(9, 30, 66, 0.13) 0px 0px 0.6rem 0.6rem;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: space-evenly; flex-direction: column;
+}
+
+.card-project:hover {
+    animation: shake 0.5s infinite;
+}
+
+.pro-title,
+.pro-Subtitle,
+.middle-sec,
+.para-desc,
+.github-rapo {
+    width: 100%;
+}
+
+.pro-title {
+
+    font-size: 1.2rem;
+    font-family: 'Russo One', sans-serif;
+    color: var(--orange);
+}
+
+.pro-Subtitle {
+
+    font-size: 1rem;
+    font-family: 'Dosis', sans-serif;
+    color: var(--dark_cyan);
+    margin-bottom: 0.5rem;
+}
+
+.middle-sec {
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.para-desc {
+
+    font-size: 0.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    color: var(--black);
+    margin: 0.5rem 0rem;
+
+}
+
+#Git-Repo {
+
+    padding: 0.5rem 2rem;
+    background-color: var(--orange);
+    border: 0px;
+    border-radius: 2%/10%;
+}
+
+#Git-Repo a {
+    color: var(--white);
+    font-size: 1rem;
+    font-family: 'Prompt', sans-serif;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+
+#Git-Repo:hover {
+    background-color: var(--dark_cyan);
+}
+
+
+@media screen and (min-device-width: 480px) and (max-device-width: 767px) {
+    #projects {
+        height: 80rem;
+    }
+    .social-links ul {
+        width: 50%;
+    }
+    .middle-sec-foot{
+        width:50%;
+    }
+}
+@media screen and (min-device-width: 538px) and (max-device-width: 768px) {
+    #projects {
+        height: 50rem;
+    }
+}
+  
+@media screen and (min-device-width: 320px) and (max-device-width: 398px) {
+
+    #projects {
+        height: 76rem;
+        padding: 1rem 0rem;
+    }
+    
+}
+
+@media screen and (min-device-width: 399px) and (max-device-width: 479px) {
+
+    #projects {
+        height: 50rem;
+        padding: 1rem 0rem;
+    }
+    
+
+}

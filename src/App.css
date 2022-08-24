@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* :root{
+  --dark_cyan : #0e4d6c;
+  --orange : #f05833;
+  --grey : rgba(21, 2, 2, 0.172);
+  --white : #ffffff;
+  --darkest : #2c4653;
+  --black : #000;
+  --lowOpac: #0e4d6c4c;
+  --jetcolor:#343434;
+  --smokyblack:#100c08;
+  --egblac:#16161d;
+  --whites:#FFF5EE;
+}
+ */
+
+html {
+  font-size: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+:root {
+  --dark_cyan: #19647E;
+  --orange: #F23F23;
+  --grey: #B8B8B8;
+  --white: #F7F6F6;
+  --darkest: #BFBBFB;
+  --black: #100c08;
+  --lowOpac: #BFBBFB;
+  --jetcolor: #3333335d;
+  --smokyblack: #333333;
+  --egblac: #005B96;
+  --whites: #FFF5EE;
+}
+
+
+body,
+#root {
+  width: 100%;
+  height: auto;
+  background-color: var(--black);
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 479px) {
+  html{
+    font-size: 52%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+@media screen and (min-device-width: 480px) and (max-device-width: 767px) {
+  html{
+    font-size: 70%;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  html{
+    font-size: 80%;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px) {
+  html{
+    font-size: 90%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+    html{
+      font-size: 100%;
+    }
 }

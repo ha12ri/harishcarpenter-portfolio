@@ -1,0 +1,47 @@
+/*
+
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Capriola', sans-serif;
+font-family: 'Cookie', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Prompt', sans-serif;
+
+
+*/
+
+.Main-text{
+     color: var(--white);
+     font-family: 'Cookie', cursive;
+     font-size: 2rem; 
+}
+
+.Main-text::first-letter{
+    color: var(--orange);
+}
+
+#nav,#nav ul{
+    display: flex; align-items: center; justify-content:space-between;
+}
+#nav{
+    font-family: 'Capriola', sans-serif;
+    width:80%;
+    height: 5rem; 
+    font-size: 0.8rem; 
+    margin: 0 auto; 
+    color: var(--white);  
+}
+#nav ul{
+    width:50%;
+    height: 100%;
+    list-style: none; 
+}
+
+.Link:hover{
+    cursor: pointer;
+    border-bottom: 0.1rem solid var(--orange);
+}

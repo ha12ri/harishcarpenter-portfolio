@@ -1,0 +1,226 @@
+#footer,
+.footer {
+    width: 100%;
+    height: 20.3rem;
+    background-color: var(--jetcolor);
+}
+
+.name-logo {
+
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 300;
+    color: var(--white);
+}
+.social{
+    width: 100%;
+    height:4rem;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0rem 1rem;
+    
+}
+
+.name-logo span {
+    color: var(--orange);
+}
+
+.fa-circle-arrow-up {
+    font-size: 2rem;
+    color: var(--white);
+    cursor: pointer;
+    animation: shake 0.5s infinite;
+    
+}
+
+
+.social-links {
+    width: 100%;
+    height: 4rem;
+    margin: 1rem 0rem;
+}
+
+.social-links ul {
+    width: 30%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.social-links a{
+   
+    font-size: 1rem;
+    color: var(--egblac);
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+   
+}
+.middle-sec-foot{
+    width:30%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: var(--orange);
+    border-bottom: 0.1rem solid var(--white);
+    padding: 1rem 0rem;
+    margin:  0 auto;
+    line-height: 1.8rem;
+}
+
+.slink {
+    width: 1.8rem;
+    height: auto;
+}
+.copy-right{
+    font-size: 1rem;
+    font-family: 'Josefin Slab', serif;
+    color: var(--white);
+    padding: 1rem;
+    width:fit-content;
+    margin:  2.5rem auto;
+}
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+@media screen and (min-device-width: 480px) and (max-device-width: 556px) {
+    .social-links ul {
+        width: 50%;
+    }
+    .middle-sec-foot{
+        width:50%;
+    }
+    .copy-right{
+        padding: 0rem;
+        margin:  2rem auto;
+    }
+}
+
+
+@media screen and (min-device-width: 557px) and (max-device-width: 619px) {
+   
+    .social-links ul {
+        width: 45%;
+    }
+}
+
+@media screen and (min-device-width: 620px) and (max-device-width: 697px) {
+   
+    .social-links ul {
+        width: 40%;
+    }
+}
+
+@media screen and (min-device-width: 698px) and (max-device-width: 768px) {
+   
+    .social-links ul {
+        width: 35%;
+    }
+}
+
+
+
+@media screen and (min-device-width: 769px) and (max-device-width: 910px) {
+   
+    .social-links ul {
+        width: 35%;
+    }
+}
+
+
+@media screen and (min-device-width: 911px) and (max-device-width: 1024px) {
+   
+    .social-links ul {
+        width: 30%;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 376px) {
+    .social-links ul {
+        width: 55%;
+      
+    }
+    .middle-sec-foot{
+        width:80%;
+    }
+    .copy-right{
+        padding: 0rem;
+        margin:  2rem auto;
+    }
+}
+
+
+@media screen and (min-device-width: 377px) and (max-device-width: 430px) {
+    .social-links ul {
+        width: 48%;
+      
+    }
+    .middle-sec-foot{
+        width:80%;
+    }
+    .copy-right{
+        padding: 0rem;
+        margin:  2rem auto;
+    }
+}
+
+@media screen and (min-device-width: 431px) and (max-device-width: 479px) {
+    .social-links ul {
+        width: 40%;
+      
+    }
+    .middle-sec-foot{
+        width:80%;
+    }
+    .copy-right{
+        padding: 0rem;
+        margin:  2rem auto;
+    }
+}

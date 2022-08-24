@@ -1,0 +1,129 @@
+#home{
+    position: relative;
+}
+.container{
+    width:80%;
+    height: 33rem;
+    margin: 0 auto;
+    background-image: url('./back.png');
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.first{
+    width:50%;
+    height:100%;
+    background-color: var(--egblac);
+    opacity: 20%;
+}
+.Second{
+    width:50%;
+    height:100%;
+    background-color: var(--orange);
+    opacity: 20%;
+}
+
+.inside-box{
+    position: absolute;
+    color: var(--white);
+    top:0;left:0;right:0;bottom:0;
+    margin: auto;
+    width:90%;
+    height:90%;
+    text-align: center;
+    border-radius: 2%/4%;
+    border: 0.2rem solid var(--white);
+}
+
+.text-writting h1{
+    font-size: 5rem;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom:2%;
+    background: linear-gradient(to right, var(--orange) 50%, var(--dark_cyan) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.text-writting h4{
+    font-size: 2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 1% 0%;
+}
+
+.SocialLinks{
+    list-style: none;
+    position: absolute;
+    top:50%;
+    right:5%;
+    transform: translate(50%, -50%);
+    height: 15rem;
+    flex-direction: column;
+}
+
+.SocialLinks,.SocialLinks li{
+    width: 2.5rem;
+    display:flex;
+    align-items: center;justify-content: space-evenly;
+}
+
+.SocialLinks li{
+    height:2.5rem;
+    border: 0.1rem solid var(--white);
+    border-radius: 10%;
+}
+
+.SocialLinks li a{
+    color: var(--orange);
+    font-size: 1rem;
+}
+
+.SocialLinks li:hover{
+    background-color: var(--dark_cyan);
+    transition: all 0.5s ease-in-out;
+}
+
+.SocialLinks li:hover a{
+    transform: scale(1.2);
+    color:var(--white);
+    transition: all 0.5s ease-in-out;
+} 
+
+.text-writting{
+    margin-top: 18%;
+}
+
+.text-writting P{
+    width:75%;
+    margin:  0 auto;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button{
+      background-color: transparent;
+      padding: 0.5rem 1rem;
+      margin: 1rem;
+      border: 0.1rem solid var(--white);
+      border-radius: 2%/10%;
+      cursor: pointer;
+      color: var(--white);
+      font-family: 'Prompt', sans-serif;
+      font-size: 1rem;
+}
+
+
+.btn2:hover{
+    background-color: var(--dark_cyan);
+    border: 0px;
+}
+.btn1:hover{
+    background-color: var(--orange);
+    border: 0px; 
+}
+

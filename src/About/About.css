@@ -1,0 +1,268 @@
+#about {
+    margin-top: 3rem;
+    width: 100%;
+    height: 37rem;
+    background-color: var(--black);
+    position: relative;
+}
+
+.HeadP {
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 2rem;
+    color: var(--orange);
+    margin: 0 auto;
+}
+
+.Pic {
+    width: 10rem;
+    height: auto;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+.curve,
+.text-area {
+    width: 100%;
+    height: 100%;
+}
+
+.curve {
+    background-color: var(--orange);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.text-area {
+    background-color: var(--white);
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Dosis', sans-serif;
+    color: var(--black);
+    line-height: 1.55rem;
+    text-align: justify;
+    word-spacing: 0.5rem;
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.main-box {
+    width: 70%;
+    height: 23.7rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    margin-top: 3rem;
+    background-color: var(--white);
+}
+
+.UniCllg {
+    margin-top: 0.8rem;
+    color: var(--orange);
+    font-family: 'Prompt', sans-serif;
+    font-size: 1rem;
+}
+
+.fa-building-columns,
+.fa-graduation-cap,
+.bx-globe {
+    color: var(--orange);
+}
+
+.AboutBtn {
+    background-color: var(--dark_cyan);
+    border: 0px;
+    margin: 0rem;
+    margin-top: 0.8rem;
+    position: relative;
+    z-index: 1;
+    font-size: 1rem;
+    border-radius: 0.1rem;
+}
+
+
+.AboutContact {
+    width: 10rem;
+    background-color: var(--dark_cyan);
+    border: 0px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    font-size: 1rem;
+    border-radius: 0.1rem;
+}
+
+.AboutBtn::before,
+.AboutContact::before {
+    content: '';
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--black);
+    z-index: -2;
+}
+
+.AboutBtn:hover::before,
+.AboutContact:hover::before {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.AboutBtn:hover .btn-link2,
+.AboutContact:hover .btn-link1 {
+    color: var(--white);
+}
+
+.Edit {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 400px) {
+    .main-box {
+        width: 95%;
+        height: 33rem;
+    }
+
+    .AboutContact {
+        width: 8rem;
+    }
+
+    .text-area {
+
+        font-size: 1.4rem;
+    }
+
+    #about {
+
+        height: 40rem;
+
+    }
+
+}
+
+@media screen and (min-device-width: 401px) and (max-device-width: 479px) {
+    .main-box {
+        width: 95%;
+        height: 33rem;
+    }
+
+    .AboutContact {
+        width: 8rem;
+    }
+
+    .text-area {
+
+        font-size: 1.5rem;
+    }
+
+    #about {
+        height: 40rem;
+    }
+
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 530px) {
+    #about {
+        height: 40rem;
+    }
+
+    .main-box {
+        width: 90%;
+        height: 35rem;
+    }
+
+    .AboutContact {
+        width: 9rem;
+    }
+
+    .text-area {
+
+        font-size: 1.3rem;
+    }
+
+    #about {
+        height: 50rem;
+    }
+
+    .UniCllg {
+
+        font-size: 1.1rem;
+    }
+
+
+}
+
+@media screen and (min-device-width: 531px) and (max-device-width: 779px) {
+    #about {
+        height: 40rem;
+    }
+
+    .main-box {
+        width: 90%;
+        height: 35rem;
+    }
+
+    .AboutContact {
+        width: 9rem;
+    }
+
+    .text-area {
+
+        font-size: 1.5rem;
+    }
+
+    #about {
+        height: 50rem;
+    }
+
+    .UniCllg {
+
+        font-size: 1.3rem;
+    }
+
+
+}
+
+
+@media screen and (min-device-width: 780px) and (max-device-width: 1023px) {
+
+
+    .main-box {
+        width: 80%;
+        height: 35rem;
+    }
+
+    .text-area {
+
+        font-size: 1.7rem;
+    }
+
+    #about {
+        height: 50rem;
+    }
+
+    .UniCllg {
+
+        font-size: 1.4rem;
+    }
+}
+
+
